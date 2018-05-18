@@ -1,0 +1,121 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Olga Diakonova Student ID: 109738179 Date: 01.04.2018 
+* 
+********************************************************************************/
+
+/* Select all elements with class “main-container” and adjust it’s max-size and margin */
+.main-container {
+    max-width: 960px;
+    margin:auto;
+}
+
+/* Select all <nav> elements that are a child of an element with class “main-container” and adjust it’s size and position */
+.main-container nav {
+    width:30%;
+    float:left;
+    
+}
+
+    /* Select all elements with class "main" that are a child of an element with class “main-container” and adjust it’s size and position */
+    .main-container .main {
+        width: 70%;
+        float: right;
+    }
+
+    /* Select all <header> elements that are a child of an element with class “main-container” and adjust it’s padding, background color, border and margin style */
+    .main-container header {
+        padding: 10px;
+        background-color: #eeeeee;
+        border-bottom: 1px thick #cccccc;
+        margin-bottom: 30px;
+    }
+
+        /* Select all <h1> elements that are a child of <head> element that are a child of an element
+            with class “main-container” and adjust it’s size, position, font-size, text position and marging */
+        .main-container header h1 {
+            width:70%;
+            font-size: 24px;
+            float:right;
+            text-align:right;
+            margin-top:10px;        
+        }
+
+
+    /* Select all <footer> elements that are a child of an element with class “main-container” and adjust it’s font-size, position, background color and border style */
+    .main-container footer {
+        clear:both;
+        padding: 20px 10px;
+        background-color: #eeeeee;
+        border-top: 1px solid #cccccc;
+        font-size:13px;   
+    }
+
+/* Select all elements with id “logo” and adjust it’s size, font-size and style */
+#logo {
+    width:30%;
+    font-size:25px;
+    font-weight:bold;    
+}
+
+    /* Select all <img> elements inside the element
+         with id “logo” and adjust it’s size and position */
+    #logo img {
+    width:94px;
+    vertical-align:middle;
+        
+    }
+
+    /* Select all <ul> elements inside the <nav> element and adjust it's list style */
+nav ul {
+    list-style-type:none;
+}
+
+    /* Select all <a> elements(links) inside the <ul> element inside the <nav> element
+        and adjust it's link render, text style and padding */
+    nav ul a {
+       display:block;
+       text-decoration:none;
+       padding:5px;
+    
+    }
+
+/* Select all elements with class "province" and adjust it's size, position, margin and height */
+div.province {
+    width:30%;
+    float:left;
+    margin:8px;
+    height:310px;
+}
+
+    /* Select all elements with class "decription" that are a child of an element with class "province" and adjust it's max-height, scroll position and margin */
+    div.province.description {
+        max-height:165px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        margin:8px;    
+    }
+
+    /* Select all <a> elements that are a child of an element with class "province" and adjust it's link render, text position, background and text color, text decoration
+        and padding */
+    div.province a {
+        display:block;
+        text-align:center;
+        background-color:#555555;
+        color:#eeeeee;
+        text-decoration:none;
+        padding:5px;    
+    }
+
+    /* Select all elements with class "flag" and adjust it's size */
+img.flag {
+    width:100%;
+
+}

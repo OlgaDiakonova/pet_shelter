@@ -1,0 +1,81 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Olga Diakonova Student ID: 109738179 Date: 01.04.2018 
+* 
+********************************************************************************/
+body 
+{
+    color: darkred;
+
+}
+nav {
+    background-color: darkred;    
+}
+
+footer 
+{
+    background-color: darkred;
+}
+
+header {
+    background-color: lightpink;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.app-title {
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+}
+
+.main-table-container {
+    width: 100%;
+    margin: auto;
+    max-height: 450px;
+    overflow: scroll;
+    
+}
+
+.main-table-top 
+{
+    width: 100%;
+    margin: auto;
+    border: 1px solid grey;
+    background-color: lightgray;
+}
+
+.main-table-top th
+{
+    border: 1px solid grey;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.main-table td 
+{
+    border: 1px solid grey;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.main-table p span 
+{
+    font-weight: bold;
+    font-style: italic;
+}
